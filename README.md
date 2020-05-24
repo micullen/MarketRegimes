@@ -9,6 +9,8 @@ This repository retrieves market features, such as Volatility, funding and candl
 python __main__.py
 
 ```
+The amount of data trained on needs to be altered to your choosing within the ``CreateModel class``. Following this, you can choose to plot in-sample data or out-of-sample data within ``run_model``.
+
 ## Requirements
 pandas
 ccxt
